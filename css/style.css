@@ -1,0 +1,58 @@
+.social-btns {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.social-btns a {
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 80%; 
+    height: 40px; 
+    padding: 10px 20px; 
+    background-color: #e0acac; 
+    color: white; 
+    font-size: 20px; 
+    border-radius: 90px; 
+    text-decoration: none; 
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 10px; 
+}
+
+.social-btns a:last-child {
+    margin-bottom: 0; 
+}
+
+.social-btns img {
+    width: 24px; 
+    height: 24px; 
+}
+
+.social-btns a:hover {
+    background-color: #ec7fb2; 
+    transform: scale(1.1);
+}
+
+header img {
+    max-width: 60%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+body {
+    background-image: linear-gradient(to bottom, #e0acac, #e9418f); 
+    min-height: 100vh; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+span {
+    font-weight: bold; 
+    color: #000000; 
+    font-size: 16px;
+    padding: 3%;
+}
